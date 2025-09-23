@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vargar i Norden</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <h1>Vargar i Norden</h1>
+        <button id="toggle-theme">Byt tema</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <img src="images/wolf1.jpg" alt="Varg i snön">
+            <div>
+                <h2>Om Vargar</h2>
+                <p>Vargen är ett intelligent och socialt rovdjur som spelar en viktig roll i ekosystemet. Den lever i flockar och är känd för sitt ylande och sin uthållighet.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Bilder</h2>
+            <div class="image-grid">
+                <img src="https://www.lerumstidning.se/images/og/75773a54-37d9-48b2-8482-c09947265da7/images/3Xot853YC6mU9Nv6VxsUHASlbg7k.jpg?width=1200&quality=75" alt="Varg i skogen">
+                <img src="https://th.bing.com/th/id/R.c9fd45116faab221224d305c6f58e202?rik=KdGYNRNU1vfyhg&riu=http%3a%2f%2fpetterssonorg.files.wordpress.com%2f2013%2f08%2fvargar.jpg&ehk=%2fnc5Q7pXHuZ7Vkge3nu4Z%2f%2bb8QJn9sudMhZuNG70UwY%3d&risl=&pid=ImgRaw&r=0 alt="Närbild på varg">
+                <img src="https://tidningensyre.se/wp-content/uploads/2023/06/29c6d6d946267dcb6ccbeabfa0791bcb.jpg" alt="Vargfamilj">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 VargInfo. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-theme');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+        });
+    </script>
+</body>
+</html>
